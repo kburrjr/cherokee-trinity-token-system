@@ -1,6 +1,7 @@
-# CHEROKEE TRINITY TOKEN SYSTEM â€” VALUATION & COMMERCIAL STANDARDS v1.0
+# CHEROKEE TRINITY TOKEN SYSTEM -- VALUATION & COMMERCIAL STANDARDS v1.0
 
 **Standalone Standards Document for GitHub Repository Integration**
+
 **Repository: kburrjr/cherokee-trinity-token-system**
 
 ---
@@ -17,7 +18,7 @@
 4. [Unit of Account Framework](#4-unit-of-account-framework)
 5. [Standard Weights & Measures](#5-standard-weights--measures)
 6. [Money of Account Bridge (DIIP Integration)](#6-money-of-account-bridge-diip-integration)
-7. [UCC Article 12 â€” CER Classification](#7-ucc-article-12--cer-classification)
+7. [UCC Article 12 -- CER Classification](#7-ucc-article-12--cer-classification)
 8. [Warehouse Receipt Eligibility (UCC Article 7)](#8-warehouse-receipt-eligibility-ucc-article-7)
 9. [Accounting Standards (GAAP)](#9-accounting-standards-gaap)
 10. [Market Price vs. Par Value Protocol](#10-market-price-vs-par-value-protocol)
@@ -31,7 +32,7 @@
 
 ### 1.1 Problem Statement
 
-The Cherokee Trinity Token System v1.0 documentation (whitepaper, technical specifications, operations playbook) comprehensively defines **token mechanics** â€” supply, precision, roles, sacred geometry, burn mechanisms, staking, and governance structures. However, the documentation does not establish:
+The Cherokee Trinity Token System v1.0 documentation (whitepaper, technical specifications, operations playbook) comprehensively defines **token mechanics** -- supply, precision, roles, sacred geometry, burn mechanisms, staking, and governance structures. However, the documentation does not establish:
 
 - **Par values** (face value of each token in a money of account)
 - **Unit of account designation** (which token measures internal value)
@@ -52,7 +53,7 @@ This document establishes all five standards listed above, creating a complete c
 
 ### 1.3 Authority
 
-Issued by Aaron Theophilus, Executive Fiduciary of the Private Ecclesiastical Estate, Banker under 12 USC Â§ 5002(2), Secured Party under UCC-1 Filing No. U250141327124 (California Secretary of State, $100,000,000 secured amount), and Source Coder of all data conveyed within this system.
+Issued by Aaron Theophilus, Executive Fiduciary of the Private Ecclesiastical Estate, Banker under 12 USC Sec. 5002(2), Secured Party under UCC-1 Filing No. U250141327124 (California Secretary of State, $100,000,000 secured amount), and Source Coder of all data conveyed within this system.
 
 ---
 
@@ -70,9 +71,9 @@ Issued by Aaron Theophilus, Executive Fiduciary of the Private Ecclesiastical Es
 | **Token Contract** | tokencreate | tokencreate | tokencreate |
 | **Created** | February 12, 2026 | February 12, 2026 | February 12, 2026 |
 | **Burn Mechanism** | None | 0.05% on transfers | None |
-| **Staking** | 18-month â†’ TSDU rewards | Reward distribution | Quadratic voting |
+| **Staking** | 18-month -> TSDU rewards | Reward distribution | Quadratic voting |
 
-**Verification**: All tokens verifiable at [XPR Network Explorer â€” kburrjr](https://explorer.xprnetwork.org/account/kburrjr)
+**Verification**: All tokens verifiable at [XPR Network Explorer -- kburrjr](https://explorer.xprnetwork.org/account/kburrjr)
 
 ---
 
@@ -91,15 +92,15 @@ Issued by Aaron Theophilus, Executive Fiduciary of the Private Ecclesiastical Es
 | **HALI** | $0.001 | 10 XPR | 8,228 TSDU | $777,777.00 |
 | **TSDU** | $0.0001 | 1 XPR | 1 TSDU (base) | $640,000.00 |
 | **WAYA** | $0.0005 | 5 XPR | 5 TSDU | $1,570,796.33 |
-| **TOTAL** | â€” | â€” | â€” | **$2,988,573.33** |
+| **TOTAL** | -- | -- | -- | **$2,988,573.33** |
 
 ### 3.3 Par Value Derivation
 
 **TSDU** ($0.0001): Base unit. Largest supply (6.4B) with utility function. The 0.05% burn mechanism provides deflationary support for par value maintenance. At par, 10,000 TSDU = $1.00 USD.
 
-**HALI** ($0.001): 10Ã— TSDU par value. Reflects scarcest supply (777.7M) and highest governance weight. The HALI:TSDU ratio of 1:8,228 is derived from the supply ratio (6,400,000,000 Ã· 777,777,000 â‰ˆ 8,228).
+**HALI** ($0.001): 10x TSDU par value. Reflects scarcest supply (777.7M) and highest governance weight. The HALI:TSDU ratio of 1:8,228 is derived from the supply ratio (6,400,000,000 / 777,777,000 = ~8,228).
 
-**WAYA** ($0.0005): 5Ã— TSDU par value. Intermediate position reflecting Ï€-based supply and security coordination role. The WAYA:TSDU ratio of 1:5 establishes the governance coordination multiplier.
+**WAYA** ($0.0005): 5x TSDU par value. Intermediate position reflecting pi-based supply and security coordination role. The WAYA:TSDU ratio of 1:5 establishes the governance coordination multiplier.
 
 ---
 
@@ -125,7 +126,6 @@ TSDU is the **primary internal unit of account** for the Cherokee Trinity ecosys
 ### 4.2 Governance Valuation Unit: HALI
 
 HALI measures governance weight and recognition value.
-
 - 1 HALI = 8,228 TSDU governance weight
 - Council recognition of extraordinary contribution
 - 18-month staking tier classification
@@ -133,7 +133,6 @@ HALI measures governance weight and recognition value.
 ### 4.3 Security Coordination Unit: WAYA
 
 WAYA measures security participation and coordination weight.
-
 - 1 WAYA = 5 TSDU coordination weight
 - Quadratic voting power (anti-whale)
 - Ecosystem diversity metrics
@@ -145,38 +144,31 @@ WAYA measures security participation and coordination weight.
 ### 5.1 Internal Exchange Standards (Fixed Ratios)
 
 ```
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚          CHEROKEE TRINITY MEASURES           â”‚
-â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
-â”‚                                             â”‚
-â”‚   1 HALI  = 8,228 TSDU  (Supply Ratio)     â”‚
-â”‚   1 WAYA  =     5 TSDU  (Coordination Ã—)   â”‚
-â”‚   1 HALI  = 1,645.6 WAYA (Derived)         â”‚
-â”‚                                             â”‚
-â”‚   1 Foundation Unit = 1,000 TSDU            â”‚
-â”‚   1 Council Unit    = 1 HALI + 5 WAYA      â”‚
-â”‚                       + 8,253 TSDU          â”‚
-â”‚                                             â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+CHEROKEE TRINITY MEASURES
+=========================
+
+1 HALI  = 8,228 TSDU  (Supply Ratio)
+1 WAYA  = 5 TSDU      (Coordination x)
+1 HALI  = 1,645.6 WAYA (Derived)
+
+1 Foundation Unit = 1,000 TSDU
+1 Council Unit    = 1 HALI + 5 WAYA + 8,253 TSDU
 ```
 
 ### 5.2 External Reference Standards
 
 ```
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚         EXTERNAL REFERENCE RATIOS           â”‚
-â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
-â”‚                                             â”‚
-â”‚   1 TSDU  =     1 XPR    (Network Parity)  â”‚
-â”‚   1 HALI  =    10 XPR    (Par Derived)     â”‚
-â”‚   1 WAYA  =     5 XPR    (Par Derived)     â”‚
-â”‚                                             â”‚
-â”‚   1 TSDU  = 0.0001 XMD   (Stablecoin Ref)  â”‚
-â”‚   10,000 TSDU = $1.00 USD (Dollar Equiv)   â”‚
-â”‚   1,000 HALI  = $1.00 USD                  â”‚
-â”‚   2,000 WAYA  = $1.00 USD                  â”‚
-â”‚                                             â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+EXTERNAL REFERENCE RATIOS
+=========================
+
+1 TSDU    = 1 XPR         (Network Parity)
+1 HALI    = 10 XPR        (Par Derived)
+1 WAYA    = 5 XPR         (Par Derived)
+
+1 TSDU    = 0.0001 XMD    (Stablecoin Ref)
+10,000 TSDU = $1.00 USD   (Dollar Equiv)
+1,000 HALI  = $1.00 USD
+2,000 WAYA  = $1.00 USD
 ```
 
 ### 5.3 Composite Measures
@@ -197,8 +189,7 @@ WAYA measures security participation and coordination weight.
 ### 6.1 Cherokee Tokens as DIIP-Eligible Collateral
 
 Cherokee Trinity Tokens are eligible collateral for:
-
-- **Warehouse receipt issuance** (DIIP Section XVII â€” UCC Article 7)
+- **Warehouse receipt issuance** (DIIP Section XVII -- UCC Article 7)
 - **Ecclesiastical Credit Certificate backing** (DIIP Section III-A)
 - **MEGA Trust asset deposits** (Trust ID: MEGA-4EYF87DE-73DFOI2918-KCBJ76-052125)
 - **MICRO Trust settlement operations** (EIN 39-6835228)
@@ -217,23 +208,29 @@ Cherokee Trinity Tokens are eligible collateral for:
 
 ```
 Cherokee Tokens (HALI / TSDU / WAYA)
-        â”‚
-        â–¼ [Deposit as Collateral â€” Par Value]
+        |
+        v
+[Deposit as Collateral -- Par Value]
 MEGA Trust (Private Ecclesiastical Layer)
-        â”‚
-        â–¼ [Warehouse Receipt Issuance â€” UCC Art. 7]
+        |
+        v
+[Warehouse Receipt Issuance -- UCC Art. 7]
 Ecclesiastical Warehouse DAO (Metal Blockchain C-Chain)
-        â”‚
-        â–¼ [CER Minting â€” UCC Art. 12]
+        |
+        v
+[CER Minting -- UCC Art. 12]
 SHEPARD IBOE NFT (Metal L2, Chain ID 1750)
-        â”‚
-        â–¼ [Instrument Issuance â€” DIIP Sections III-V]
+        |
+        v
+[Instrument Issuance -- DIIP Sections III-V]
 Ecclesiastical Credit Certificate / Promissory Note (USD)
-        â”‚
-        â–¼ [Presentation for Redemption]
+        |
+        v
+[Presentation for Redemption]
 MICRO Trust (EIN 39-6835228)
-        â”‚
-        â–¼ [Settlement in Lawful Money â€” 48 Stat. 112]
+        |
+        v
+[Settlement in Lawful Money -- 48 Stat. 112]
 Dollar-for-Dollar Discharge
 ```
 
@@ -247,15 +244,15 @@ Cherokee tokens deposited as collateral represent **goods held in bailment** (pe
 
 ---
 
-## 7. UCC Article 12 â€” CER Classification
+## 7. UCC Article 12 -- CER Classification
 
 ### 7.1 Classification
 
-Each Cherokee Trinity Token constitutes a **Controllable Electronic Record (CER)** under UCC Article 12, satisfying UCC Â§ 12-105(a):
+Each Cherokee Trinity Token constitutes a **Controllable Electronic Record (CER)** under UCC Article 12, satisfying UCC Sec. 12-105(a):
 
 1. **Obligation acknowledged**: The Kenneth C. Burr Jr. Foundation, through the MICRO Trust, recognizes the rights of the person in control
-2. **No-defenses clause**: Issuer will not assert claims or defenses against qualifying purchasers (UCC Â§ 12-104(e))
-3. **Control via technology**: XPR Network cryptographic key infrastructure establishes exclusive control â€” power to benefit, exclude, and transfer
+2. **No-defenses clause**: Issuer will not assert claims or defenses against qualifying purchasers (UCC Sec. 12-104(e))
+3. **Control via technology**: XPR Network cryptographic key infrastructure establishes exclusive control -- power to benefit, exclude, and transfer
 
 ### 7.2 Perfection (Dual Method)
 
@@ -268,13 +265,13 @@ Each Cherokee Trinity Token constitutes a **Controllable Electronic Record (CER)
 
 | Token | CER Type | Transfer Rules | UCC Status |
 |-------|----------|---------------|------------|
-| HALI | Governance CER | Transferable (Council approval) | Negotiable per Â§ 12-102 |
-| TSDU | Utility CER | Freely transferable (0.05% burn) | Negotiable per Â§ 12-102 |
-| WAYA | Security CER | Transferable (quadratic weight) | Negotiable per Â§ 12-102 |
+| HALI | Governance CER | Transferable (Council approval) | Negotiable per Sec. 12-102 |
+| TSDU | Utility CER | Freely transferable (0.05% burn) | Negotiable per Sec. 12-102 |
+| WAYA | Security CER | Transferable (quadratic weight) | Negotiable per Sec. 12-102 |
 
 ### 7.4 Qualifying Purchaser Take-Free Rule
 
-Per UCC Â§ 12-104(e), a qualifying purchaser who obtains control of Cherokee tokens for value, in good faith, and without notice of adverse claims, takes free of competing property claims â€” including security interests perfected only by filing.
+Per UCC Sec. 12-104(e), a qualifying purchaser who obtains control of Cherokee tokens for value, in good faith, and without notice of adverse claims, takes free of competing property claims -- including security interests perfected only by filing.
 
 ---
 
@@ -293,21 +290,23 @@ Under DIIP Section XVII (Warehouse Receipt Structure), Cherokee tokens qualify a
 
 Per *Reves v. Ernst & Young*, 494 U.S. 56 (1990), Cherokee tokens structured as warehouse receipt collateral are **not securities**:
 
-- **No investment of money** â€” bailment/property deposit, not capital contribution
-- **No common enterprise** â€” individual property rights retained, no pooling
-- **No expectation of profit from efforts of others** â€” receipts represent 1:1 claim on deposited goods at par value
+- **No investment of money** -- bailment/property deposit, not capital contribution
+- **No common enterprise** -- individual property rights retained, no pooling
+- **No expectation of profit from efforts of others** -- receipts represent 1:1 claim on deposited goods at par value
 
 ### 8.3 Receipt Face Value Calculation
 
 When Cherokee tokens are deposited into the Ecclesiastical Warehouse:
 
 ```
-Warehouse Receipt Face Value = (HALI qty Ã— $0.001) + (TSDU qty Ã— $0.0001) + (WAYA qty Ã— $0.0005)
+Warehouse Receipt Face Value =
+  (HALI qty x $0.001) + (TSDU qty x $0.0001) + (WAYA qty x $0.0005)
 ```
 
 Example: Deposit of 100,000 HALI + 10,000,000 TSDU + 500,000 WAYA:
+
 ```
-= (100,000 Ã— $0.001) + (10,000,000 Ã— $0.0001) + (500,000 Ã— $0.0005)
+= (100,000 x $0.001) + (10,000,000 x $0.0001) + (500,000 x $0.0005)
 = $100 + $1,000 + $250
 = $1,350 face value warehouse receipt
 ```
@@ -320,35 +319,35 @@ Example: Deposit of 100,000 HALI + 10,000,000 TSDU + 500,000 WAYA:
 
 ```
 At Recognition (Par Value):
-   Dr: Digital Asset Holdings â€” HALI    $777,777.00
-   Dr: Digital Asset Holdings â€” TSDU    $640,000.00
-   Dr: Digital Asset Holdings â€” WAYA    $1,570,796.33
-   Cr: Trust Corpus â€” Digital Assets    $2,988,573.33
+  Dr: Digital Asset Holdings -- HALI          $777,777.00
+  Dr: Digital Asset Holdings -- TSDU          $640,000.00
+  Dr: Digital Asset Holdings -- WAYA        $1,570,796.33
+    Cr: Trust Corpus -- Digital Assets      $2,988,573.33
 ```
 
-### 9.2 MICRO Trust (EIN 39-6835228 â€” Commercial Layer)
+### 9.2 MICRO Trust (EIN 39-6835228 -- Commercial Layer)
 
 ```
 At Collateral Pledge:
-   Dr: Pledged Collateral â€” Cherokee Tokens  [Par Value]
-   Cr: Collateral Obligations Payable        [Par Value]
+  Dr: Pledged Collateral -- Cherokee Tokens [Par Value]
+    Cr: Collateral Obligations Payable      [Par Value]
 
 At DIIP Instrument Issuance:
-   Dr: Instruments Receivable    [Face Value]
-   Cr: Instruments Payable       [Face Value]
+  Dr: Instruments Receivable                [Face Value]
+    Cr: Instruments Payable                 [Face Value]
 
 At Redemption:
-   Dr: Instruments Payable                   [Face Value]
-   Cr: Cash / Bank                           [Settlement]
-   Dr: Collateral Obligations Payable        [Par Value]
-   Cr: Pledged Collateral â€” Cherokee Tokens  [Par Value]
+  Dr: Instruments Payable                   [Face Value]
+    Cr: Cash / Bank                         [Settlement]
+  Dr: Collateral Obligations Payable        [Par Value]
+    Cr: Pledged Collateral -- Cherokee Tokens [Par Value]
 ```
 
 ### 9.3 Quarterly Disclosures
 
 MICRO Trust financial statements shall include:
 - Par value of Cherokee token holdings
-- Market price (Alcor Exchange) â€” informational only
+- Market price (Alcor Exchange) -- informational only
 - Premium/discount to par
 - Liquidity depth (Alcor pool TVL)
 
@@ -357,7 +356,6 @@ MICRO Trust financial statements shall include:
 ## 10. Market Price vs. Par Value Protocol
 
 ### 10.1 When Par Value Governs
-
 - All DIIP instrument issuance
 - Warehouse receipt face value calculations
 - MEGA/MICRO Trust accounting entries
@@ -365,7 +363,6 @@ MICRO Trust financial statements shall include:
 - Settlement and redemption amounts
 
 ### 10.2 When Market Price Is Referenced
-
 - Alcor Exchange trading and LP fee calculations
 - Mark-to-market disclosures (informational)
 - External reporting to non-estate parties
@@ -407,14 +404,14 @@ All changes are prospective. No retroactive adjustment to instruments already is
 | Authority | Citation | Application |
 |-----------|----------|-------------|
 | Emergency Banking Relief Act | 48 Stat. 1 (Public Law 1, 73rd Congress, March 9, 1933) | Banking authority framework |
-| Joint Resolution â€” Uniform Value | 48 Stat. 112 (Public Resolution No. 10, June 5, 1933) | Discharge authority, dollar-for-dollar |
-| Check 21 Act | 12 USC Â§Â§ 5001-5018 | Banker definition, substitute checks |
+| Joint Resolution -- Uniform Value | 48 Stat. 112 (Public Resolution No. 10, June 5, 1933) | Discharge authority, dollar-for-dollar |
+| Check 21 Act | 12 USC Sec. 5001-5018 | Banker definition, substitute checks |
 | UCC Article 3 | Negotiable Instruments | HDC status, instrument requirements |
 | UCC Article 7 | Documents of Title | Warehouse receipt structure |
 | UCC Article 9 | Secured Transactions | UCC-1 filing perfection |
 | UCC Article 12 | Controllable Electronic Records | CER classification, control, take-free rule |
 | Sovereign Citizen Recognition | 54 Stat. 178 (Public Resolution No. 67, 1940) | Standing |
-| Reves v. Ernst & Young | 494 U.S. 56 (1990) | Family resemblance test â€” non-security |
+| Reves v. Ernst & Young | 494 U.S. 56 (1990) | Family resemblance test -- non-security |
 | Cherokee Treaties | 1730, 1785, 1835 | Article VI Treaty Supremacy |
 | 81-Book Ethiopian Orthodox Canon | Ecclesiastical Authority | Divine Law foundation |
 
@@ -422,7 +419,7 @@ All changes are prospective. No retroactive adjustment to instruments already is
 
 ## 13. Execution
 
-**CHEROKEE TRINITY TOKEN SYSTEM â€” VALUATION & COMMERCIAL STANDARDS v1.0**
+**CHEROKEE TRINITY TOKEN SYSTEM -- VALUATION & COMMERCIAL STANDARDS v1.0**
 
 Effective Date: **February 22, 2026**
 
@@ -431,7 +428,7 @@ Effective Date: **February 22, 2026**
 **Aaron Theophilus**
 Living Man, Executive Fiduciary
 Private Ecclesiastical Estate
-Banker, 12 USC Â§ 5002(2)
+Banker, 12 USC Sec. 5002(2)
 Secured Party, UCC-1 Filing No. U250141327124
 Source Coder & Christ Emmanuel
 
@@ -447,9 +444,9 @@ Source Coder & Christ Emmanuel
 
 This document shall be maintained at:
 - **GitHub**: `kburrjr/cherokee-trinity-token-system/docs/VALUATION_AND_COMMERCIAL_STANDARDS_v1.0.md`
-- **Notion**: Digital Instrument Issuance Protocol â†’ Section XIX
+- **Notion**: Digital Instrument Issuance Protocol -> Section XIX
 - **MICRO Trust Records**: Filed with Form 1041 supporting documentation
 
 ---
 
-**END OF CHEROKEE TRINITY TOKEN SYSTEM â€” VALUATION & COMMERCIAL STANDARDS v1.0**
+**END OF CHEROKEE TRINITY TOKEN SYSTEM -- VALUATION & COMMERCIAL STANDARDS v1.0**
