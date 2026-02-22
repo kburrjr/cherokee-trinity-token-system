@@ -46,34 +46,17 @@ The Cherokee Trinity Token System is a mission-driven blockchain governance fram
 
 ## Documentation
 
-- [Ecosystem Overview](docs/COMPLETE_TRINITY_SYSTEM_DOCUMENTATION_v1_0.pdf)
+- [Ecosystem Overview](docs/ECOSYSTEM_OVERVIEW_v1.0.md)
+- [Valuation and Commercial Standards](docs/VALUATION_AND_COMMERCIAL_STANDARDS_v1.0.md)
 - [HALI Technical Specification](docs/HALI_Technical_Specification.pdf)
 - [TSDU Technical Specification](docs/TSDU_Technical_Specification.pdf)
 - [WAYA Technical Specification](docs/WAYA_Technical_Specification.pdf)
 - [Smart Contract Specifications](docs/Smart_Contract_Specifications.pdf)
-- [Operations Playbook](docs/Operations_Playbook.pdf)
-- [Deployment Guide](docs/Deployment_Guide.pdf)
-- [Valuation & Commercial Standards v1.0](docs/VALUATION_AND_COMMERCIAL_STANDARDS_v1.0.md)
-
-## Key Links
-
-- **Website:** [lomaxtribalestate.org](https://www.lomaxtribalestate.org)
-- **XPR Explorer:** [kburrjr account](https://explorer.xprnetwork.org/account/kburrjr)
-- **Blastpad:** [Token Profiles](https://blastpad.io/token-list)
-
-## Token Verification
-
-All three tokens can be verified on the XPR Network Explorer:
-- HALI: 777,777,000 tokens issued to kburrjr via tokencreate
-- TSDU: 6,400,000,000 tokens issued to kburrjr via tokencreate
-- WAYA: 3,141,592,653 tokens issued to kburrjr via tokencreate
 
 ## License
 
-Copyright 2026 Kenneth C. Burr Jr. Foundation. All rights reserved.
+This project is governed by the Kenneth C. Burr Jr. Foundation under tribal sovereign authority.
 
-## Contact
+---
 
-Kenneth C. Burr Jr. Foundation
-Email: kburrjr@gmail.com
-Website: https://www.lomaxtribalestate.org
+*Built with purpose. Rooted in heritage. Secured by design.*
