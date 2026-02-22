@@ -53,6 +53,7 @@ The Cherokee Trinity Token System is a mission-driven blockchain governance fram
 - [Smart Contract Specifications](docs/Smart_Contract_Specifications.pdf)
 - [Operations Playbook](docs/Operations_Playbook.pdf)
 - [Deployment Guide](docs/Deployment_Guide.pdf)
+- [Valuation & Commercial Standards v1.0](docs/VALUATION_AND_COMMERCIAL_STANDARDS_v1.0.md)
 
 ## Key Links
 
